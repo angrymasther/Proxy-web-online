@@ -36,10 +36,6 @@ app.get("/", function(peticion , respuesta){
                         if(body.indexOf("target=\"_blank\"") != -1){
                             body = body.replace(/target=\"_blank\"/g, " ");
                         }
-                        if(body.indexOf("<a href=\"") != -1){
-                            body = body.replace(/<a href="/g,"<a href=\"http://localhost:8888/?=");
-                            console.log(body);
-                        }
                         else{
 
                         }
