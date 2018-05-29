@@ -1,0 +1,52 @@
+*{
+	font-family: "sans serif";
+	margin: 0px;
+}
+header img{
+
+	width: 50px;
+
+}
+header{
+	background: #6279a3;
+}
+header *{
+
+	display: inline-block;
+
+}
+nav *{
+	padding-top: 2.5px;
+	display: inline-block;
+	padding-left: 80.5px;
+	padding-right: 80.5px;
+	height: 25px;
+	color: white;
+}
+nav{
+	background: #3f63a5;
+	padding-bottom: 10px;
+}
+
+section{
+	margin: 10px;
+	background: #c8d2e5;
+	
+}
+
+footer{
+  background:black;
+
+}
+
+li:hover {
+    background-color: #2a57aa;
+}
+input{
+	margin: 10px;
+}
+iframe{
+	width:1000px;
+	height: 1000px;
+
+}
