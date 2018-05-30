@@ -9,7 +9,6 @@ var file = 0;
 var url = "";
 
 app.use(express.static(path.join(__dirname, 'public')));
-fs.unlink("/public/pages/*",  function(err){});
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function(peticion , respuesta){
